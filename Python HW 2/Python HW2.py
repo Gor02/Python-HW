@@ -68,4 +68,3 @@ word = list("Pneumonoultramicroscopicsilicovolcanoconiosis")
     # if x[i] != x[i + 1]:
         # y = y + 1
 # y = y + 1
-# serliqyser
