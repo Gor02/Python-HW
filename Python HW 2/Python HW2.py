@@ -40,8 +40,8 @@ x = [1, 1, 2, 3, 2, 3, 1, 1, 2, 3, 4, 1]
 
 # Find the value of the sum
 # k = range(0, 11)
-# sum = sum(1/3**i for i in k)
-# print(( (1/3) / (1-(1/3)) ) - sum)
+# sum_ = sum(1/3**i for i in k)
+# print(( (1/3) / (1-(1/3)) ) - sum_)
 
 # Keep, in the list sec, second letters of all words in the following sentence
 # The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis.
@@ -59,8 +59,9 @@ word = list("Pneumonoultramicroscopicsilicovolcanoconiosis")
 # count_o = len([k for k in word if k == "o"])
 
 # Find the number of vowels (ձայնավորներ) in this word
-# vowels = len([k for k in word if k == "a" or k == "e" or k == "i" or k == "o" or k == "u" or k == "y"])
-
+vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
+# vowels_list = [k for k in vowels]
+print(len(vowels_list))
 # Find how many different letters are there in this word
 # y = 0
 # x = sorted(word)
